@@ -1,0 +1,109 @@
+{
+  "components": {
+    "userMenu": {
+      "logout": "登出",
+      "login": "登录",
+      "join": "加入"
+    },
+    "connectionNotification": {
+      "tryingToConnect": "尝试连接",
+      "connectionIssue": "网络故障"
+    },
+    "listHeader": {
+      "deleteConfirm": "确定删除",
+      "selectAction": "选择动作",
+      "makePublic": "公开",
+      "makePrivate": "私有",
+      "delete": "删除",
+      "makeListPublic": "公开",
+      "makeListPrivate": "私有",
+      "deleteList": "删除",
+      "cancel": "取消",
+      "typeToAdd": "添加新任务"
+    },
+    "listList": {
+      "newList": "新增列表",
+      "newListError": "不能新增列表"
+    },
+    "loading": {
+      "loading": "加载"
+    },
+    "mobileMenu": {
+      "showMenu": "显示菜单"
+    },
+    "todoItem": {
+      "taskName": "任务名称"
+    }
+  },
+  "pages": {
+    "authPageJoin": {
+      "emailRequired": "Email必需",
+      "passwordRequired": "密码必需",
+      "passwordConfirm": "确认密码",
+      "join": "加入.",
+      "joinReason": "加入后可创建私有列表",
+      "yourEmail": "Email",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "joinNow": "加入",
+      "haveAccountSignIn": "有帐号？登录"
+    },
+    "authPageSignIn": {
+      "emailRequired": "Email必需",
+      "passwordRequired": "密码必须",
+      "signIn": "登录.",
+      "signInReason": "登录可以查看私有列表",
+      "yourEmail": "Email",
+      "password": "密码",
+      "signInButton": "登录",
+      "needAccount": "需要帐号？加入."
+    },
+    "listPage": {
+      "noTasks": "没有任务",
+      "addAbove": "用上述字段新增任务",
+      "loading": "加载任务..."
+    },
+    "notFoundPage": {
+      "pageNotFound": "而面没找到"
+    }
+  },
+  "api": {
+    "lists": {
+      "insert": {
+        "list": "列表"
+      },
+      "makePrivate": {
+        "notLoggedIn": "必须登录才能创建私有列表.",
+        "lastPublicList": "不能将公开列表转为私有列表."
+      },
+      "makePublic": {
+        "notLoggedIn": "必须登录.",
+        "accessDenied": "你无权限修改这个列表."
+      },
+      "updateName": {
+        "accessDenied": "你无权限修改这个列表."
+      },
+      "remove": {
+        "accessDenied": "'你无权限删除这个列表.'",
+        "lastPublicList": "不能删除此公有列表."
+      }
+    },
+    "todos": {
+      "insert": {
+        "accessDenied": "不能给不属于你的私有列表增加待办事项"
+      },
+      "setCheckedStatus": {
+        "accessDenied": "不能修改不属于你的私有列表的待办事项"
+      },
+      "updateText": {
+        "accessDenied": "不能修改不属于你的私有列表的待办事项"
+      },
+      "remove": {
+        "accessDenied": "不能删除不属于你的私有列表的待办事项"
+      },
+      "item": {
+        "taskName": "任务名称"
+      }
+    }
+  }
+}
