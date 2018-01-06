@@ -4,9 +4,9 @@
 App.info({
   name: 'Tomato',
   description: 'A simple todo list app built in Meteor.',
-  author: 'Percolate Studio Team',
-  email: 'us@percolatestudio.com',
-  website: 'http://percolatestudio.com',
+  author: 'Sitexa Studio Team',
+  email: 'xnpeng@163.com',
+  website: 'http://www.sitexa.com',
   version: '0.0.1',
 });
 

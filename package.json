@@ -5,7 +5,9 @@
     "test-watch": "meteor test --driver-package practicalmeteor:mocha",
     "test-app-watch": "meteor test --full-app --driver-package practicalmeteor:mocha",
     "lint": "eslint --ext .js,.jsx .",
-    "chimp-watch": "chimp --ddp=http://localhost:3000 --watch --mocha --path=tests"
+    "chimp-watch": "chimp --ddp=http://localhost:3000 --watch --mocha --path=tests",
+    "build-server":"meteor build ./.deploy --architecture os.linux.x86_64 --server-only",
+    "build":"meteor build ./.deploy --architecture os.linux.x86_64 --server https://tomato.sitexa.com"
   },
   "dependencies": {
     "autoprefixer": "^6.4.1",
